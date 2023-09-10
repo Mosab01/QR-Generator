@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Container styles */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 50px 10px;
+  }
+}
+
+/* Title styles */
+#title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+/* QR code styles */
+img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Input field styles */
+.input-fields {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.input-field {
+  margin: 0 10px;
+  text-align: left;
+  flex: 1 1 300px;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Download button styles */
+#download-btn {
+  display: block;
+  text-align: center;
+}
+
+#download-btn button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#download-btn button:hover {
+  background-color: #666;
+}
